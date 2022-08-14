@@ -1,0 +1,70 @@
+.formCotainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.list__info {
+}
+.key {
+}
+.key__value {
+  margin: 0 2rem;
+}
+.value {
+}
+.list__btn {
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 50%;
+  margin: 0 auto;
+}
+input {
+  margin: 1rem 0;
+}
+.dataListContainer {
+  margin: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 1rem 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(250, 66, 66);
+}
+input[type="submit"] {
+  background-color: green;
+  color: white;
+  padding: 0.5rem 2rem;
+  outline: none;
+  border: none;
+  border-radius: 0.1rem;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: rgb(99, 184, 99);
+}
